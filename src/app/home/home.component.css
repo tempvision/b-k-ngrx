@@ -1,0 +1,25 @@
+.grid-row {
+    display: flex;
+    justify-content: center;
+}
+
+.correct {
+    background-color: green;
+    border: 2px solid;
+    padding: 40px;
+    margin: 4px;
+}
+
+.close {
+    background-color: yellow;
+    border: 2px solid;
+    padding: 40px;
+    margin: 4px;
+}
+
+.incorrect {
+    background-color: grey;
+    border: 2px solid;
+    padding: 40px;
+    margin: 4px;
+}

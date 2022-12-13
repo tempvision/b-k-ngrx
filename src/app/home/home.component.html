@@ -1,0 +1,9 @@
+<div class="grid-row">
+    <div *ngFor="let symbol of rowOne; let index = index;">
+        <p class="tile" [class]="symbol.color || 'incorrect'">
+            {{ symbol }}
+        </p>
+        <!-- {{ rowOne[index].letter }}
+        <input name="symbol[index]" [(ngModel)]="rowOne[index].letter"> -->
+    </div>
+</div>
